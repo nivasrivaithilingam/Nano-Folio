@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    background-color: rgb(219, 79, 126);
+    color: white;
+    height: 450px;
+    border-radius: 10px;
+    margin: 30px 170px 30px 170px;
+}
+.icon-01 {
+    font-size: 12px;
+    text-align: center;
+}
+#heart {
+    margin-top: 170px;
+}
+.section-01 {
+    display: flex;
+    background-color: rgb(5, 180, 180);
+    color: white;
+    margin: 30px 170px 30px 170px;
+    height: 450px;
+    border-radius: 10px;
+}
+#icon-02 {
+    margin-left: 250px;
+    margin-top: 170px;
+}
+.about {
+    flex: 1;
+    margin: 0px;
+}
+#about-us {
+    margin-left: 225px;
+    font-size: 20px;
+}
+.content {
+    flex: 1;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.content-02 {
+    margin-top: 45px;
+}
+span {
+    color: greenyellow;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 53px;
+    margin-top: 70px;
+    margin-left: 58%;
+    color: rgb(105, 190, 190);
+}
+ul span {
+    color: rgb(228, 112, 151);
+}
+.gallery-wrapper {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 15px;
+}
+.item {
+    width: 241px;
+    height: 250px;
+    border-radius: 10px;
+}
+#item-01 {
+    background-image: url('tn-img-01.jpg');
+    background-size: cover;
+}
+#item-02 {
+    background-image: url('tn-img-02.jpg');
+    background-size: cover;
+}
+#item-03 {
+    background-image: url('tn-img-03.jpg');
+    background-size: cover;
+}
+#item-04 {
+    background-image: url('tn-img-04.jpg');
+    background-size: cover;
+}
+#item-05 {
+    background-image: url('tn-img-05.jpg');
+    background-size: cover;
+}
+#item-06 {
+    background-image: url('tn-img-06.jpg');
+    background-size: cover;
+}
+#item-07 {
+    background-image: url('tn-img-07.jpg');
+    background-size: cover;
+}
+#item-08 {
+    background-image: url('tn-img-08.jpg');
+    background-size: cover;
+}
+#item-09 {
+    background-image: url('tn-img-09.jpg');
+    background-size: cover;
+}
+#item-10 {
+    background-image: url('tn-img-10.jpg');
+    background-size: cover;
+}
+#item-11 {
+    background-image: url('tn-img-11.jpg');
+    background-size: cover;
+}
+#item-12 {
+    background-image: url('tn-img-12.jpg');
+    background-size: cover;
+}
+.footer {
+    display: flex;
+    background-color: rgba(7, 168, 120, 0.541);
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    margin: 45px 170px 30px 170px;
+}
+.feedback {
+    flex: 1;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+hr {
+    width: 64.5vh;
+    margin-left: 0px;
+}
+.send {
+    margin-left: 60vh;
+}
+.address {
+    flex: 1;
+    margin-left: 50px;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 15px;
+}
+#number {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.media {
+    display: flex;
+    margin-top: 25px;
+}
+.socialmedia-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: rgba(7, 168, 120, 0.541);
+    text-align: center;
+}
+.socialmedia-icon2 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: rgba(7, 168, 120, 0.541);
+    text-align: center;
+    margin-left: 10px;
+}
+.socialmedia-icon3 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: rgba(7, 168, 120, 0.541);
+    text-align: center;
+    margin-left: 10px;
+}
+.contact {
+    flex: 1;
+    margin: 0; 
+}
+#location {
+    margin-left: 125px;
+    margin-top: 100px; 
+}
+#cont {
+    margin-left: 110px;
+}
+#copy {
+    color: rgb(131, 131, 131);
+    text-align: center;
+    font-size: 15px;
+    margin: 40px 0px 50px 0px;
+}
